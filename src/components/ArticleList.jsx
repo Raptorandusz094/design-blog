@@ -12,7 +12,7 @@ import chillCorner from '../assests/chill-corner.png'
 
 
 export function ArticleList() {
-    let defaultBoxStyle = ' w-auto h-auto  mx-[100px]'
+  
 
     let navStyle = "ml-[25px] [font-family:'Poppins-Medium',Helvetica] font-medium text-[#49505780] text-[12px] hover:text-black"
     let dateFormar = "mb-[15px] text-[12px ] ext-right text-zinc-600 text-xs font-light font-['Poppins'] leading-tight "
@@ -22,7 +22,7 @@ export function ArticleList() {
 
 
     return (<section>
-        <section className="  mt-[100px]  w-auto h  mx-[100px] flex justify-between items-center">
+        <section className="  md:mt-[100px]  w-auto h  mx-[100px] flex justify-between items-center">
             <h2 className={primary}>
                 Design is not just what it looks
                 <br /> like and feels like.
