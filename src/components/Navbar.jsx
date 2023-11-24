@@ -39,11 +39,11 @@ export function Navbar() {
         |
       </li>
       
-      <button className=" open ml-[20px] mt-1    "  >
+      <button className=" open ml-[20px] mt-1    " onClick={()=>setIsOpen((prev)=>!prev)}  >
         <img src={vector} alt="search-button" />
       </button>
 
-    </ul>
+    </ul> 
   </nav>)
 
 }
